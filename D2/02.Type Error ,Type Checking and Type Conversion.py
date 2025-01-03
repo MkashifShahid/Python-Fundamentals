@@ -9,7 +9,7 @@ print("The Data type of Your name is ",type(num_Char))
 #print("The number of characters in your name is: "+num_Char+ "characters") 
 #This will give an error
 
-num_char=str(num_Char) #convert the integer to a string [Type Conversion or Type Casting]
+num_char=str(num_Char) #This will convert the integer to a string [Type Conversion or Type Casting]
 print("Your name has " +num_char+  "  characters") #This will work
 
  
