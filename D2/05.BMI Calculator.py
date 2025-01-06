@@ -21,5 +21,4 @@ Warning: You should convert the result to a whole number.
 weight=input("Enter Your weight in kg:")
 height=input("Enter Your hight in m:")
 bmi=int(weight)/float(height)**2
-print(int(bmi))
-1
+print("Your BMI=",int(bmi)) 
