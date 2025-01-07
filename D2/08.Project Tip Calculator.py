@@ -1,3 +1,5 @@
+
+#Initial implementation of a Python-based Tip Calculator with features for calculating tips, splitting bills, and rounding results for user convenience.
 print("Welcome to the Tip Culculator")
 bill=float(input("what was the total bill?$ "))
 Tip=int(input("What perncentage tip would you like to give 10, 12, or 15? "))
