@@ -1,6 +1,6 @@
 print("Welcome to the rollercoaster!")
 
-hight=int(input("please Enter your Hight in cm:"))) 
+hight=int(input("please Enter your Hight in cm:"))
 if hight>120:
     print("You can ride the rollercoaster!")  
     
