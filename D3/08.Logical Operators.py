@@ -23,7 +23,7 @@ if height >= 120:
     if age<51 and want_photo=="Y" or want_photo=="y":
         # bill=bill+3
         bill+=3   
-        print(f"Your final Bill is {bill}$ ")
+        print(f"Your final Bill is {bill}$. ")
 else:
     print("Sorry, you have to grow taller before you can ride.")
 
