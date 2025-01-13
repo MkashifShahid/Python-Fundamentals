@@ -1,4 +1,4 @@
-print("Welcome to The Roller Coaster 3.0!")
+print("Welcome to The Roller Coaster 3.0")
 height=float(input("Please Enter Your Height in cm:"))
 bill=0
 if height >= 120:
