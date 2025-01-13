@@ -34,10 +34,10 @@ else:
     
 if Extra_cheese =='Y' or Extra_cheese=='y':
     bill+=1
-    print(f"Thank you for your order! Your final bill is ${bill}.")
+    print(f"Thank you for your order! Your final bill is +${bill}.")
     
 elif Extra_cheese=='N' or Extra_cheese=='n':
-    print(f"Thank you for your order! Your final bill is ${bill}.")
+    print(f"Thank you for your order! Your final bill is +${bill}.")
     
 else:
     print("Invalid input for extra cheese. Please restart your order! ")
