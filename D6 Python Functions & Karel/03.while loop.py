@@ -17,5 +17,4 @@ while counter < 5:
     # Increment the counter by 1
     counter += 1
 
-# Print a message when the loop is finished
 print("Counter has reached 5, exiting the loop.")
