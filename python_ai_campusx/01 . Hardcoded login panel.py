@@ -1,7 +1,6 @@
 email = input("Please Enter your Email: ")
-passwd = input("Please Enter Passwd: ")
-
 if "@" in email:
+    passwd = input("Please Enter Passwd: ")
     if email == "admin@gmail.com" and passwd == "1234":
         print("Welcome User")
     elif email == "admin@gmail.com" and passwd != "1234":
@@ -10,8 +9,8 @@ if "@" in email:
         if newpass == "1234":
             print("Finally Welcome User!")
         else:
-            print("Wrong again! Access denied.")
+            print("429: Too many Requests!")
     else:
-        print("429: Too many Requests!")  # Aim: without loop
+        print("Access denied.")  # Aim: without loop
 else:
-    print("Invalid email or password. Please try again.")
+    print("Invalid email!")
