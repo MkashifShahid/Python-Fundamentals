@@ -1,0 +1,13 @@
+D={"Name":"Ali","Age":21,"city":"FSD","Univerity":"GC"}
+print(D.keys())
+print(D.values())
+print(max(D))
+print(min(D))
+print(len(D))
+print(sorted(D))
+D2={(1,2,3):"Lahore"}
+print(D2.keys())
+print(D2.values())
+print(max(D2))
+print(min(D2))
+print(len(D2))
